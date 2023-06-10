@@ -1,7 +1,9 @@
 # Router-on-a-stick-project
+
 Inter-VLAN membuat VLAN ID yang berbeda agar bisa berkomunikasi.
 
 ## Basic Network Config
+
  1. Berikan IP pada PC0 dan PC1
  > PC0 = 192.168.10.10
  > PC1 = 192.168.20.10
@@ -15,6 +17,7 @@ Inter-VLAN membuat VLAN ID yang berbeda agar bisa berkomunikasi.
 ## Konfigurasi VLAN
 
 ### Konfigurasi S2
+
 Switch2>enable
 Switch2#configure terminal
 Switch2(config)#hostname S2
@@ -34,6 +37,7 @@ S2(config-if)#end
 > lakukan show vlan untuk mengecek konfigurasi vlan yang telah dibuat.
 
 ### Konfigurasi S1
+
 Switch1>enable
 Switch1#configure terminal
 Switch1(config)#hostname S1
@@ -57,6 +61,7 @@ S1(config-if)#end
 ## Konfigurasi Router
 
 ### Pemberian IP
+
 Router>enable
 Router#configure terminal
 Router(config)#interface g0/0/1.10
