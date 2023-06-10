@@ -5,8 +5,8 @@ Inter-VLAN membuat VLAN ID yang berbeda agar bisa berkomunikasi.
 ## Basic Network Config
 
  1. Berikan IP pada PC0 dan PC1
- > PC0 = 192.168.10.10
- > PC1 = 192.168.20.10
+ > PC0 = 192.168.10.10/24 dengan gateway 192.168.10.1
+ > PC1 = 192.168.20.10/24 dengan gateway 192.168.20.1
  2. Koneksikan PC dengan Switch
  > PC0 dengan fa0/6 pada S1
  > PC1 dengan fa0/18 pada S2
