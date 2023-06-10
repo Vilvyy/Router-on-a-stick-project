@@ -1,6 +1,6 @@
 # Router-on-a-stick-project
 
-Inter-VLAN membuat VLAN ID yang berbeda agar bisa berkomunikasi.
+Inter-VLAN membuat VLAN ID yang berbeda agar dapat berkomunikasi.
 
 ## Basic Network Config
 
